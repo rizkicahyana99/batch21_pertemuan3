@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 1</title>
+    <!-- memanggil file style.css -->
+    <link rel="stylesheet" href="style.css" />
+    <style type="text/css">
+        
+        #sidebar {
+            background-color: rgb(233, 233, 119);
+            width: 25%;
+            float: left;
+            height: 115vh; /*89vh*/
+            position: relative;
+            top: 5.2em;
+        }
+        #content {
+            background-color: aquamarine;
+            width: 75%;
+            float: left;
+            height: 115vh;
+            position: relative;
+            top: 5.2em;
+        }
+        #footer {
+            background-color: blue;
+            color: #fff;
+            float: left;
+            width: 100%;
+            text-align: center;
+        }
+        #footer p {
+            color: red; /* warna merah buat tag p di div id=footer */
+        }
+        .kotak1 {
+            width: 15%;
+            background-color: black;
+            color: white;
+            height: 5em;
+            float: left;
+            /* margin: 30px; atas=30px kanan=30px bawah=30px kiri=30px  */
+            /* margin: 15px 60px; atas dan bawah=15px; kanan dan kiri=15px */
+            /* margin: 50px 15px 22px 5px; atas=50px kanan=15px bawah=22px kiri=5px */
+            margin-top: 50px;
+            margin-right: 15px;
+            margin-bottom: 22px;
+            margin-left: 5px;
+        }
+        .kotak2 {
+            width: 40%;
+            background-color: yellow;
+            color: red;
+            float: left;
+            /* height: 8em; */
+            padding: 5em;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="header">
+        Latihan HTML + CSS
+    </div>
+
+    <!--  -->
+    <div id="sidebar">
+        <nav>
+            <ul>
+                <li class="background-kuning"><a href="#">Home</a></li>
+                <li><a href="#">Portofolio</a></li>
+                <li class="background-kuning"><a href="#">Tentang Saya</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="content">
+        <h2 class="background-kuning">Ini judul bebas...</h2>
+        
+        <div class="kotak1">
+            <p class="tulisan-tebal">Halo.. ini isi kotak 1</p>
+        </div>
+        
+        <div class="kotak2">
+            <p class="tulisan-miring">Halo.. ini isi kotak 2</p>
+        </div>
+
+        <p style="font-family: Arial; float: left;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fugit tenetur molestiae nulla quae dignissimos aliquid architecto vel labore laudantium blanditiis aperiam qui saepe ducimus, libero ipsum? Odit, blanditiis cumque.</p>
+        
+        <p class="tulisan-miring background-kuning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ea voluptatem, voluptate recusandae exercitationem magni commodi minima veniam eaque dolore error nobis ab. Perspiciatis laborum consequatur asperiores nam dolorem error.</p>
+
+        <button class="background-biru tulisan-putih" style="padding: 0.5em 1.5em;">Simpan Data</button>
+    </div>
+
+    <div id="footer">
+        <p>Copyright &copy; 2022. All Rights Reserved.<br/>
+        Rizki Cahyana</p>
+    </div>
+
+</body>
+</html>
