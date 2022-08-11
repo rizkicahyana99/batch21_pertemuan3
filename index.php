@@ -1,3 +1,3 @@
 <?php
-    include "latihan1.html";
+    include "index.html";
 ?>
